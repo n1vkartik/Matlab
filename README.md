@@ -1,7 +1,6 @@
 # Matlab
 new repo
 % Visualize Walking Gait and Inverse Kinematics
-% Copyright 2019 The MathWorks, Inc.
 
 close all
 robotParametersCtrl;
