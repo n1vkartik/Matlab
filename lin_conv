@@ -1,0 +1,27 @@
+
+%code for linear convolution
+clc;
+close all;
+x=input("enter the first sequence=");
+h=input("enter the second sequence=");
+%for first sequence
+subplot(3,1,1)
+stem(x);
+xlabel('X');
+ylabel('Y');
+title("first sequence");
+
+%for second sequence
+subplot(3,1,2)
+stem(h);
+xlabel('X');
+ylabel('Y');
+title("second sequence");
+
+%convoluted sequence
+lin_conv=conv(x,h);
+subplot(3,1,3)
+stem(lin_conv)
+
+
+
